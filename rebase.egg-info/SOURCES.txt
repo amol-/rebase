@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+rebase/__init__.py
+rebase/base.py
+rebase/dictionary.py
+rebase.egg-info/PKG-INFO
+rebase.egg-info/SOURCES.txt
+rebase.egg-info/dependency_links.txt
+rebase.egg-info/entry_points.txt
+rebase.egg-info/not-zip-safe
+rebase.egg-info/top_level.txt

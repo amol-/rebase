@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: rebase
+Version: 0.0dev
+Summary: A Redis based Object Model for Python
+Home-page: UNKNOWN
+Author: Alessandro Molina
+Author-email: alessandro.molina@axant.it
+License: MIT
+Description: UNKNOWN
+Keywords: redis orm objects
+Platform: UNKNOWN
