@@ -51,7 +51,7 @@ class List(Container):
                 self.list = list
 
             def next(self):
-                if self.index > len(self.list):
+                if self.index >= len(self.list):
                     raise StopIteration
                 else:
                     i = self.list[self.index]

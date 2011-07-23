@@ -31,6 +31,10 @@ class Entry(object):
     def get(cls, redis, key, **params):
         return cls(Field(cls), redis=redis, key=key, **params)
 
+    @property
+    def redis_key(self):
+        return self._key
+
     def __init__(self, field, redis, key=None):
         object.__setattr__(self, '_field', field)
         object.__setattr__(self, '_redis', redis)
